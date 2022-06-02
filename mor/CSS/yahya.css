@@ -1,0 +1,556 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+background-color: #a9a9a973;
+color: rgb(84, 84, 84);
+/*الخطوط*/
+
+/* font-family: 'Almarai', sans-serif; */
+
+
+/* font-family: 'Raleway', sans-serif; */
+/**/
+
+font-family: 'Almarai', sans-serif;
+
+
+/* font-family: 'Raleway', sans-serif; */
+}
+nav ul, #mobil {
+    display: none;
+}
+#laptop-yahya{
+   display: flex;
+    margin: 12px;
+    padding-right: 19px;
+padding-left: 37px;
+    width: 357px;}
+#yhd-d {
+    display: none;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.yohyok #yhd-d {
+    display: none;
+}
+#thy-op {
+    display: block;
+}
+.jopr {
+    display: block;
+}
+#tou-mobil {
+    display: none;
+}
+#to-mobil{
+    display: none;       
+}
+div#malk-yahya {
+    display: none;
+}
+#gpal {
+    display: none;
+}
+#komin {
+    display: none;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 905px) {
+     main {
+        /* overflow: hidden; */
+        width: 100%;
+     }
+    .yahyok {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 13px;
+    padding-bottom: 4px;}
+    .jopr {
+        display: none;
+    }
+    #to-mobil {
+        display: block;
+    }
+    #obady-tob {
+     display: none;
+    }
+      #tou-mobil {
+          display: block;
+
+      }
+      #tuo-yahya {
+          display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      transition-property: padding-right, padding-left, color, background-color;
+
+    }
+    #tuo-yahya:hover,
+    #ric:hover{
+       
+        background-color: darkcyan;
+        color: greenyellow;
+        padding-right: 20px;
+        padding-left: 0px;
+        transition-duration: 150ms, 150ms;
+    }
+
+      #ric {
+          
+      width: 100%;
+      margin: 16px;
+      height: auto;
+      padding-left: 16px;
+    padding-right: 16px;
+    transition-property: padding-right, padding-left, color, background-color;
+
+}
+    
+      #for-mobil{
+        padding-top: 16px;
+      background-color: white;}
+      #tuo-yahya, p {
+          
+      font-size: inherit;}
+   
+
+#to-mobil {
+    width: 100%;
+padding-bottom: 32px;
+}
+
+div#malk-yahya {
+    display: block;
+ 
+}
+#malk-yahya {
+    
+background-color: white;}
+.formya{
+
+
+    
+    padding-top: 32px;
+    padding-bottom: 16px;font-size: xxx-large;}
+#man-alsaeedi {
+
+padding: 15px 15px 32px 15px;display: grid;align-items: center;}
+#bar-yahya {
+
+margin: 8px;
+background: lightgray;
+transition-property: padding-right, padding-left, color, background-color;
+
+}
+#bar-yahya:hover {
+    background-color: darkcyan;
+    color: greenyellow;
+    padding-right: 20px;
+    padding-left: 0px;
+    transition-duration: 150ms, 150ms;
+}
+button:hover {
+    background-color: darkcyan;
+    color: rgb(255, 14, 130);
+    padding-right: 20px;
+    padding-left: 0px;
+    transition-duration: 150ms, 150ms;
+}
+
+div#garch-yahya.bloto{
+    
+display: none;}
+.gopa {
+
+padding-left: 16px;padding-top: 16px;padding-bottom: 24px;font-size: 26px;font-weight: 900;}
+.yahya-alsaeedi
+{
+    display: none;
+}
+.hoho.row,.oan-yahya {
+    display: none;
+}
+.topa {
+    display: block;
+}
+#turpo {
+    display: none;
+}
+#gpal {
+    display: block;
+}
+#goaly {
+
+padding:  32px 0px 16px 0px;font-size: xxx-large;margin-top: 1px;
+    margin-bottom: 0px;}
+#dafy{
+    
+padding-bottom: 32px;background-color: white;}
+#roaby {
+    
+width: 100%;display: inline-block;}
+.poar {
+
+}
+#komin {
+ display: flex;
+padding-top: 16px;background-color: white;width: 100%;color: black;flex-wrap: nowrap;align-items: flex-end;flex-direction: row;justify-content: center;align-content: flex-end;height: 119px;padding: 13px;}
+#goapl {
+    display: none;
+}
+#lohdo {
+    
+/* justify-content: center; *//* height: 50%; *//* font-size: x-large; */display: inline-block;}
+     #yhd-d {
+        display: flex;
+        height: auto;
+        width: 100%;
+    position: sticky;}
+    
+    #hty-op {
+       display: none;
+       margin: 0px;
+       
+    }
+    #yah-logo,#yah-logo1{
+        display: none;
+    }
+    #laptop-yahya{
+        display: none;
+    }
+   
+    
+    #mobil,nav ul {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 64px;
+    
+    width: initial;}
+    li,#mobil {
+     
+    
+    display: inline-flex;
+      padding: 12%;
+      
+    width: 31%;margin-right: 28%;/* margin-left: 28%; */}
+    a,#mobil {
+        margin: 0px 48px;
+    padding: 0px 20px;display: inline-flex;/* margin-left: 50%; */
+    margin-right: 50%;}
+       button, h4 {
+        display: grid;
+        
+        /* padding: 8px 0px; */
+        
+        border: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+        height: 45px;
+        border-radius: 22px;
+        font-size: 16px;
+        text-align: center;
+        align-content: center;
+}
+button {
+    transition-property: padding-right, padding-left, color, background-color;
+
+}
+    .kadm {
+     display: none;       
+            
+    }
+    #mobil {
+        display: flex;
+        height: 64px;
+        width: 100%;
+        display: flex;
+        top: 0;
+        
+        margin: 0;
+        position: inherit;
+    flex-direction: row-reverse;justify-content: space-between;align-content: center;align-items: center;}
+    
+}
+header {
+    width: 131px;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+header {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;width: 100%;
+    height: 64px;
+    justify-content: space-between;
+
+z-index: 100;}
+header a[href]{
+    color:dodgerblue;
+}
+#yah-logo {
+    font-weight: 450;
+}
+#yah-logo1 {
+    font-weight: 100;
+    color: rgb(170, 167, 167);
+}
+#yah-all1 {
+    align-items: center;display: inline-flex;
+    
+}
+nav {
+
+margin: 0px 2%;
+/* padding-left: 14px; */
+    height: 55px;
+    }
+ul {
+
+display: flex;
+}
+li ,#yah-uouo {
+    
+display: inline-flex;
+/* margin-right: 0px; */flex-direction: row;justify-content: flex-end;flex-wrap: nowrap;padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;width: 187px;align-content: center;align-items: center;}
+#yah-all {
+    
+display: inline-flex;
+height: 32px;
+align-items: center;
+/* justify-content: flex-start; */}
+main {
+    position: absolute;
+    top: 64px;
+}
+
+.yahyok  {
+    background-color: #b6b6b6;
+
+display: flex;}
+.yahyok .yu7754{
+   
+
+display: inline-flex;width: 60%;margin: 34px 24px;}
+.hoyr {
+  
+align-items: center;margin-block: auto;}
+button ,h4{
+    
+display: grid;align-items: center;padding: 8px 0px;background-color: darkcyan;border: 0;
+}
+/* الان نبداء الجزء الثاني*/
+.roa {
+    display: flex;
+     
+     
+     padding: 32px 0px;
+     width: 100%;
+     box-sizing: border-box;
+     overflow: inherit;
+     background-color: white;
+    }
+     .kadm {
+
+     padding: 32px 24px;width: 60%;float: left;}
+     .tlath {
+
+     float: right;
+     display: inline-block;
+     flex-direction: column;
+     width: 40%;
+     right: auto;
+     border-left: 1.5px solid cornflowerblue;
+     margin-top: 30px;
+    }
+       
+    
+    #oan-yahya {
+        display: flex;
+       align-items: center; 
+       width: 100%;
+       align-content: space-around;
+        padding-left: 16px;
+        padding-right: 0px;
+        padding-top: 14px;
+        
+
+        flex-direction: row;margin: 7px 0px;
+        transition-property: margin, backgruond-color, color, font-size, padding-left, font-weight;
+        
+        
+        
+        
+    }
+     #oan-yahya:hover,
+     .oan:focus {
+        background-color: rgba(38, 0, 231, 0.342);
+        color: rgb(255, 0, 64);
+        padding-left: 0px;
+        transition-duration: 150ms, 150ms;
+}
+    
+     
+     
+     .oan img {
+        width: 35%;
+        right: auto;
+         padding: 16px;
+    }
+ 
+img.uyuy {width: 100%;}
+
+.hoho.row {
+  
+        
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: middle;
+        width: 97%;
+    padding: 16px 0px 16px 28px;
+padding-right: 0px;}
+a[href]{
+   
+    text-decoration: none;
+}
+.roa a[href]{
+    color: rgba(255, 149, 0, 0.914);
+}
+/* الان نبداء الجزء الثالث اخيرا */
+
+#garch-yahya {
+        
+    display: flex;
+    
+    
+
+
+width: 100%;
+    align-items: center;
+flex-direction: column;
+align-content: center;
+justify-content: flex-start;
+overflow: hidden;
+height: auto;
+}
+.oan-yahya {
+    max-width: 80%;
+    min-width: 25%;
+    align-items: center;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+#oan-yahya h2 {
+    align-items: center;
+    margin: 32px 0px;
+    width: 100%;
+
+}
+.hoa ,img {
+/* width: 100%; */
+height: auto;
+
+}
+#oan-yahya, p{
+    
+text-align: start;padding-left: 11px;}
+
+#garch-yahya h2 { text-align: center;margin-bottom: 11px;width: 100%;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2.yhayaalsaeediuu {
+    display: table-column;
+    text-align: center;
+}
+
+
+
+#yahya-alsaeedi{
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px;
+
+    width: 100%;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding: 32px 0px;
+     
+}
+
+#yahya-alsaeedi 
+.oan-yahya {
+
+    grid-auto-rows: max-content;
+   
+    
+    flex-direction: row;
+align-content: space-between;
+align-items: stretch;
+width: 429px;
+margin-bottom: 24px;
+transition-property: margin, backgruond-color, color, font-size, padding,  border-radius;
+}
+.oan-yahya:hover{
+    background-color: rgba(49, 49, 49, 0.467);
+    color: rgb(255, 255, 255);
+   
+    border-radius: 40px;
+transition-timing-function: ease-in-out;
+transition-duration: 150ms, 150ms;
+}
+h3.topa {
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+video.uyuy {
+    width: 100%;
+}
+h2, .turpo {
+
+text-align: center;margin-top: 32px;background-color: white;align-items: center;padding-top: 4px;font-size: larger;}
+footer .zopy {
+    border-top: 1px solid #999;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+ul {
+    list-style: none;
+}
+a[href]{
+    padding: 2%;
+    text-decoration: none;
+color: coral;}
+footer a[href]{
+    color: #666;
+}
+h4.oror {
+    background: no-repeat;
+    font-weight: 700;
+}
